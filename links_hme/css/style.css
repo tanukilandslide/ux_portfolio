@@ -3,7 +3,7 @@ body {
       margin: 0;
       font-family: 'avenir',helvetica, sans-serif;
     background-color: #e2f4fa;
-    background-image:url("/links_hme/images/00_medical_pattern.png");
+    background-image: url("../images/00_medical_pattern.png");
 }
 
 main {
