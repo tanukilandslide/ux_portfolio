@@ -1,0 +1,36 @@
+.nav-bar {
+      background-color: rgb(58, 97, 133);
+      width: 100%;
+}
+
+.content {
+      max-width: 980px;
+      margin: 0 auto;
+}
+
+.nav-bar-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+      max-width: 980px;
+      padding: 0 16px;
+}
+
+.logo {
+      color: white;
+      margin: 0;
+}
+
+.logo-name {
+      margin: 16px 0 4px 0;
+  }
+  
+  .logo-subtitle {
+      margin: 4px 0 16px 0;
+  }
+
+  .nav-item {
+      list-style: none;
+      color: white;
+  }
