@@ -101,17 +101,7 @@ a:hover {
     /* margin: 0 auto; */
 }
 
-button {
-    background-color: rgb(22, 56, 87);
-  color: inherit;
-  border: none;
-  padding: 8px 24px;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-    border-radius: 25vw;
-    margin: 0 8px;
-}
+
 
 .section_intro {
     margin: 0 auto;

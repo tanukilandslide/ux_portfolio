@@ -22,18 +22,18 @@ a {
       text-decoration: none;
 }
 
-.nav-bar {
+/* .nav-bar {
       display: flex;
       justify-content: space-between;
       align-items: center;
       
-}
+} */
 
-.navigation {
+/* .navigation {
       list-style: none
-}
+} */
 
-button {
+/* button {
       background-color: rgb(22, 56, 87);
 	color: inherit;
 	border: none;
@@ -43,20 +43,20 @@ button {
 	outline: inherit;
       border-radius: 25vw;
       margin: 0 8px;
-}
+} */
 
-li {
+/* li {
       color: white
       
-}
+} */
 
-.stage {
+/* .stage {
       display: flex;
       height: 80vh;
       align-items: center;
       justify-content: space-around;
       flex-wrap: wrap;
-}
+} */
 
 .circle {
       /* grid-column: 4 / -1;
@@ -69,11 +69,6 @@ li {
       border-radius: 100%;
       background-color: rgb(22, 56, 87);
       position: relative;
-}
-
-.logos {
-      /* grid-column: 1 / span 8;
-      grid-row: 1; */    
 }
 
 .logo-1 {
@@ -159,9 +154,6 @@ li {
       
 }
 
-/* .circle:hover .text-circle {
-      animation: spin-to-top 5s linear infinite;
-    } */
     
 @keyframes spin {
     
