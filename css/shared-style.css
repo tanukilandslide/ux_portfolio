@@ -1,0 +1,32 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.7em;
+}
+
+h1 {
+    line-height: 1em;
+}
+
+main {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.image-and-text {
+    display: flex;
+    margin-top: 3rem;
+    
+}
+
+.profile-image {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.personal-intro {
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

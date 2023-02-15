@@ -1,5 +1,5 @@
 * {
-      font-family: 'avenir', helvetica, sans-serif;
+      
       color: white;
 }
 
@@ -22,41 +22,24 @@ a {
       text-decoration: none;
 }
 
-/* .nav-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      
-} */
 
-/* .navigation {
-      list-style: none
-} */
 
-/* button {
-      background-color: rgb(22, 56, 87);
-	color: inherit;
-	border: none;
-	padding: 8px 24px;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-      border-radius: 25vw;
-      margin: 0 8px;
-} */
+
+
+
 
 /* li {
       color: white
       
 } */
 
-/* .stage {
+.stage {
       display: flex;
       height: 80vh;
       align-items: center;
       justify-content: space-around;
       flex-wrap: wrap;
-} */
+}
 
 .circle {
       /* grid-column: 4 / -1;
@@ -70,6 +53,11 @@ a {
       background-color: rgb(22, 56, 87);
       position: relative;
 }
+
+/* .logos {
+      grid-column: 1 / span 8;
+      grid-row: 1;    
+} */
 
 .logo-1 {
      
@@ -122,7 +110,7 @@ a {
       /* border: salmon 3px solid; */
       margin: 0;
       padding: 0;
-      font-family: 'avenir';
+      /* font-family: 'avenir'; */
       font-size: 1.5rem;
       fill: white;
       
@@ -154,6 +142,9 @@ a {
       
 }
 
+/* .circle:hover .text-circle {
+      animation: spin-to-top 5s linear infinite;
+    } */
     
 @keyframes spin {
     
