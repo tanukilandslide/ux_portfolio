@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Personal Projects</title>
+
+      <!-- style sheets -->
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href="../css/navbar-white.css">      
+      <link rel="stylesheet" href="../css/shared-style.css">
+      <link rel="stylesheet" href="css/personal_projects.css">
+
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+      
+<body>
+    
+    <div class="nav-bar"> 
+        <div class="content">
+            <div class="nav-bar-content">
+                <header>
+                    <a href="../index.html">
+                        <div class="logo">
+                            <h1 class="logo-name">Andrew Leemhuis</h1>
+                            <h2 class="logo-subtitle">UX Design Portfolio</h2>
+                        </div>
+                    </a>
+                </header>
+
+                <nav>
+                    <ul class="navigation">
+                        <a href="../index.html"><button><li class="nav-item">Projects</li></button></a>
+                        <a href="../files/andrew-leemhuis-resume-a4.pdf" target="_blank"><button><li class="nav-item">Resume</li></button></a>
+                        <a href="../about/about.html"><button><li class="nav-item">About</li></button></a>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+        <div class="all_content" id="animate">
+
+            <div id="current_project">
+                
+
+            </div>
+
+            <div class="project_select">
+                
+                
+                <div class="project_icon" onclick="firstProjectClicked()">
+                    
+                        <img class="circle_image" src="images/flower_pot/00_flower-pot-icon.jpg">
+                    
+                    <h2 class="project-title">
+                        Flower Pot O&#39;Fence
+                    </h2>
+                </div>
+            
+                <div class="project_icon" onclick="secondProjectClicked()">
+                    
+                    <img class="circle_image" src="images/chair_project/00-chair-icon.jpg">
+                    
+                    <h2>
+                        Project
+                    </h2>
+                </div>
+                
+
+                <div class="project_icon" onclick="thirdProjectClicked()">
+                    
+                        <img class="circle_image" src="https://picsum.photos/200">
+                    
+                    <h2>
+                        Project
+                    </h2>
+                </div>
+
+                <div class="project_icon" onclick="fourthProjectClicked()">
+                    
+                        <img class="circle_image" src="https://picsum.photos/200">
+
+                    <h2>
+                        Project
+                    </h2>
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+        <!-- templates -->
+        <!-- first template -->
+        <template id="first_project">
+            <div id="current_project">
+
+                <div class="close_button" onclick="moveBackFunction()">
+                    <img src="images/close.svg">
+                </div>
+
+                <div class="project_window">
+                    
+                    <img class="main_image" src="images/flower_pot/01_initial_sketch.jpg">
+
+                    
+
+                </div>
+
+                <div class="project_image_select">
+                    <div class="thumbnail-mask highlighted" id="first-image" onclick="projectImageClicked(event,0)">
+                        <img class="thumbnail-image" src="images/flower_pot/01_initial_sketch.jpg">
+                    </div>
+
+                    <div class="thumbnail-mask" id="second-image" onclick="projectImageClicked(event,1)">
+                        <img class="thumbnail-image" src="images/flower_pot/02_3d_model_rendering.jpg">
+                    </div>
+
+                    <div class="thumbnail-mask" id="third-image" onclick="projectImageClicked(event,2)">
+                        <img class="thumbnail-image" src="images/flower_pot/03_flower_pot_printing.gif">                                
+                    </div>
+
+                    <div class="thumbnail-mask" id="fourth-image" onclick="projectImageClicked(event,3)">
+                        <img class="thumbnail-image" src="images/flower_pot/04_flower_pot_on_fence.jpg">
+                    </div>
+
+                    <div class="thumbnail-mask" id="fourth-image" onclick="projectImageClicked(event,4)">
+                        <img class="thumbnail-image" src="images/flower_pot/05_flower_pot_with_plant.jpg">
+                    </div>
+                    
+                </div>
+                
+                <div>
+                    <h1>Flower Pot O&#39;Fence</h1>
+                    <p>
+                        After seeing a similar flowerpot I had made, a friend commisioned me to design and print a version that would fit his fence. Though he lived thousands of miles away&comma; I was able to use the measurments provided to create a modular bracket that fit snuggly and allowed his plant friends to get enough sunlight, drain properly, and avoid cat-tastrophes  	
+                        &#128576;
+                    </p>
+                </div>
+            </div>
+        </template>
+
+        <!-- second project -->
+
+        <template id="second_project">
+            <div id="current_project">
+
+                <div class="close_button" onclick="moveBackFunction()">
+                    <img src="images/close.svg">
+                </div>
+
+                <div class="project_window">
+                    
+                    <img class="main_image" src="images/chair_project/01-initial-chair-sketches.jpg">
+
+                    
+
+                </div>
+
+                <div class="project_image_select">
+                    <div class="thumbnail-mask highlighted" id="first-image" onclick="projectImageClicked(event,5)">
+                        <img class="thumbnail-image" src="images/chair_project/01-initial-chair-sketches.jpg">
+                    </div>
+
+                    <div class="thumbnail-mask" id="second-image" onclick="projectImageClicked(event,6)">
+                        <img class="thumbnail-image" src="images/chair_project/02-chairs-color.jpg">
+                    </div>
+
+                    <div class="thumbnail-mask" id="third-image" onclick="projectImageClicked(event,7)">
+                        <img class="thumbnail-image" src="images/chair_project/03-chair-construction.jpg">                                
+                    </div>
+
+                    <div class="thumbnail-mask" id="fourth-image" onclick="projectImageClicked(event,8)">
+                        <img class="thumbnail-image" src="images/chair_project/04-process-photos.jpg">
+                    </div>
+
+                    <div class="thumbnail-mask" id="fourth-image" onclick="projectImageClicked(event,9)">
+                        <img class="thumbnail-image" src="images/chair_project/05-final-chair.jpg">
+                    </div>
+                    
+                </div>
+                
+                <div>
+                    <h1>Chair Project</h1>
+                    <p>
+                        Built a chair. Yup
+                    </p>
+                </div>
+            </div>
+        </template>
+
+        <!-- third template -->
+        
+        <template id="third_project">
+            <div id="current_project">
+
+                <div class="project_window" id="third-project-image-1">
+                    <!-- <img class="main_image" src="images/IMG_6468.jpeg"> -->
+
+                    <div class="close_button" onclick="moveBackFunction()">
+                        &#10006;
+                    </div>
+
+                </div>
+
+                <div class="project_image_select">
+                    <div class="project_image">
+                                
+                    </div>
+
+                    <div class="project_image">
+                                
+                    </div>
+
+                    <div class="project_image">
+                                
+                    </div>
+
+                    <div class="project_image">
+                                
+                    </div>
+                </div>
+                <div class="close_button" onclick="moveBackFunction()">
+                    &#10006;
+                </div>
+            </div>
+        </template>
+
+        <!-- fourth project -->
+
+        <template id="fourth_project">
+            <div id="current_project">
+
+                
+
+                <div class="project_window" id="fourth-project-image-1">
+                    <!-- <img class="main_image" src="images/IMG_9687.jpeg"> -->
+                    <div class="close_button" onclick="moveBackFunction()">
+                        &#10006;
+                    </div>
+
+                </div>
+
+                <div class="project_image_select">
+                    <div class="project_image">
+                                
+                    </div>
+
+                    <div class="project_image">
+                                
+                    </div>
+
+                    <div class="project_image">
+                                
+                    </div>
+
+                    <div class="project_image">
+                                
+                    </div>
+                </div>
+                <div class="close_button" onclick="moveBackFunction()">
+                    &#10006;
+                </div>
+            </div>
+        </template>
+
+        <script src="javascript/personal_projects.js"></script>
+    
+    </main>
+    </body>
+</html>
