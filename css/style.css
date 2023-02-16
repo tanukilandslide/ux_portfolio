@@ -36,8 +36,9 @@ a {
 .stage {
       display: flex;
       height: 80vh;
-      align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
+      /* align-items: center;
+      justify-content: space-around; */
       flex-wrap: wrap;
 }
 
@@ -167,3 +168,59 @@ a {
       to {transform: rotate(360deg);}
 }
     
+
+.rotating-icon {
+      width: 19rem;
+      margin-top: 9rem;
+      /*   animation-name: pointies;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; */
+}
+    
+@keyframes clockwise {
+from {transform: rotate(0deg);}
+
+to {transform: rotate(360deg);}
+}
+
+@keyframes counterclockwise {
+from {transform: rotate(360deg);}
+
+to {
+      transform: rotate(0deg);}
+}
+
+.lines {
+      transform-origin: center;
+      animation-name: clockwise;
+      animation-duration: 60s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+}
+
+.dots {
+      transform-origin: center;
+      animation-name: counterclockwise;
+      animation-duration: 230s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+}
+
+.ufos {
+      transform-origin: center;
+      animation-name: clockwise;
+      animation-duration: 100s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+}
+
+.pointies {
+      transform-origin: center;
+      animation-name: counterclockwise;
+      animation-duration: 120s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+}
+
+
