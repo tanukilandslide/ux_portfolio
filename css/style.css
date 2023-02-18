@@ -22,24 +22,14 @@ a {
       text-decoration: none;
 }
 
-
-
-
-
-
-
-/* li {
-      color: white
-      
-} */
-
 .stage {
       display: flex;
       height: 80vh;
-      justify-content: space-between;
-      /* align-items: center;
-      justify-content: space-around; */
+      justify-content: center;
+      align-items: center;
+      /* justify-content: space-around; */
       flex-wrap: wrap;
+      /* padding-top: 4rem; */
 }
 
 .circle {
@@ -170,8 +160,8 @@ a {
     
 
 .rotating-icon {
-      width: 19rem;
-      margin-top: 9rem;
+      width: 18rem;
+      margin: 1rem;
       /*   animation-name: pointies;
       animation-duration: 30s;
       animation-iteration-count: infinite;
