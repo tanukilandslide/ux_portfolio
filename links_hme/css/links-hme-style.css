@@ -20,13 +20,13 @@ body {
 }
 
 a {
-    color:red;
+    color: #BB2036;
     cursor:pointer;
     text-decoration: none;
 }
 
 a:hover {
-    color:green;
+    color:#006192;
     cursor:pointer;
     text-decoration: none;
 }

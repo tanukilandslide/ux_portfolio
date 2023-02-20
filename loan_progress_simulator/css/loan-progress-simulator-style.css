@@ -9,13 +9,13 @@ body {
 
 
 a {
-    color:red;
+    color:rgb(58, 97, 133);
     cursor:pointer;
     text-decoration: none;
 }
 
 a:hover {
-    color:green;
+    color:#BB2036;
     cursor:pointer;
     text-decoration: none;
 }
@@ -27,8 +27,16 @@ a:hover {
     padding: 0;
 }
 
+.scrolling_background {
+    height: 60rem;
+}
 
-
+.sticky_box {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7.5vh;
+    /* height: 85vh; */
+}
 
 
 
@@ -80,14 +88,14 @@ a:hover {
 .bar-graph {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10%
+    margin-bottom: 1%
 }
 
 .principal-and-interest {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .principal {
@@ -103,16 +111,9 @@ a:hover {
     padding: 5vh 5vw;
 }
 
-.scrolling_background {
-    height: 90vh;
-}
 
-.sticky_box {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 7.5vh;
-    /* height: 85vh; */
-}
+
+
 
 .whiteboard_image {
     background-image: url("/images/03_affinity_diagram.jpg");
@@ -139,6 +140,7 @@ a:hover {
 
 .persona_h1 {
     margin: 0 0;
+    line-height: 1.8rem;
 }
 
 .background_info_text {
@@ -333,11 +335,29 @@ a:hover {
     }
 
     .section_intro {
-        padding: 2vw;
+        padding: 0;
     }
 
     .brief {
-        top: 24.5vh;
+        top: 13rem;
     }
 
+    .persona_image {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .persona_background_info {
+        flex-direction: column;
+        padding: 5vw;
+    }
+    
+    .background_info_text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .graph {
+        width: 100%
+    }
 }
