@@ -32,6 +32,11 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 1%
+
+}
+
+.graph {
+    width: 90%;
 }
 
 .principal-and-interest {
@@ -106,9 +111,5 @@ a:hover {
     .background_info_text {
         width: 100%;
         padding: 0;
-    }
-
-    .graph {
-        width: 100%
     }
 }
