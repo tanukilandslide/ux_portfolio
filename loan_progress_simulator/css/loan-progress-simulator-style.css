@@ -36,7 +36,7 @@ a:hover {
 }
 
 .graph {
-    width: 90%;
+    width: 80%;
 }
 
 .principal-and-interest {
@@ -100,7 +100,8 @@ a:hover {
 
     .persona_image {
         margin: 0 auto;
-        width: 50%;
+        width: auto;
+        height: 15rem;
     }
 
     .persona_background_info {
@@ -111,5 +112,9 @@ a:hover {
     .background_info_text {
         width: 100%;
         padding: 0;
+    }
+
+    .graph {
+        width: 70%;
     }
 }

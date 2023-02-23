@@ -69,8 +69,9 @@ a:hover {
 
 .image {
     /* height: 30%; */
-    max-width: 50%;
-    max-height: 50%;
+    height: 20rem;
+    margin: auto 0;
+    /* max-height: 50%; */
     /* height: auto; */
     /* margin: 0 auto; */
 }
@@ -138,7 +139,8 @@ a:hover {
 }
 
 .voice_tone_comparison{
-    padding: 1% 10% 0;
+    margin: 5% 10%;
+    width: 80%;
     
 }
 
@@ -305,7 +307,7 @@ a:hover {
     }
 
     h3 {
-        margin: 0 10px 10px;
+        margin: 10px 10px 10px;
     }
 
     .homepage_image_top {
@@ -313,6 +315,14 @@ a:hover {
     }
 
     .robo-calendar {
+        border-radius: 16px 16px 0 0;
+    }
+
+    .paragraph {
+        flex-direction: column-reverse;
+    }
+
+    .image {
         border-radius: 16px 16px 0 0;
     }
 
@@ -325,9 +335,9 @@ a:hover {
     }
 
     .illustration_lineup {
-        display: grid;
-        grid-template-columns: repeat(6, 15%);
-        padding: 0 0 1rem 0;
+        display: flex;
+        /* grid-template-columns: repeat(6, 15%);
+        padding: 0 0 1rem 0; */
         
     
         /* display: flex;
@@ -349,8 +359,9 @@ a:hover {
     }
 
     .retesting_style_wrapper {
-        display: grid;
-        grid-template-rows: 50% 50%;
+        display: flex;
+        flex-direction: column;
+        /* grid-template-rows: 50% 50%; */
         /* justify-content: space-around; */
         margin: 0 0 1rem 0;
     }
