@@ -7,7 +7,16 @@
       }
 
     
-
+<!-- #santander-logo {
+      fill: transparent;
+      stroke: #fff;
+      stroke-miterlimit: 10;
+      stroke-dasharray: 900;
+      stroke-dashoffset: 900;
+      animation: dash 30s infinite linear;
+      border: 1px solid #fff; 
+      
+} -->
 
 .lines {
       transform-origin: center;
@@ -39,6 +48,12 @@
       animation-duration: 120s;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
+}
+
+@keyframes dash {
+      to {
+        stroke-dashoffset: -900;
+      }
 }
 
 @keyframes clockwise {

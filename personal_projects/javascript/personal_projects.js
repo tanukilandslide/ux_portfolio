@@ -111,7 +111,7 @@ function changeMainImage(number) {
 
     "<img src='images/chair_project/01-initial-chair-sketches.jpg' class='main_image'>","<img src='images/chair_project/02-chairs-color.jpg' class='main_image'>","<img src='images/chair_project/03-chair-construction.jpg' class='main_image'>","<img src='images/chair_project/04-process-photos.jpg' class='main_image'>","<img src='images/chair_project/05-final-chair.jpg' class='main_image'>",
 
-    "<img src='images/sketches/01-fringilla.jpg' class='main_image'>" , "<img src='images/sketches/02-leighton-on-a-mountain.jpg' class='main_image'>" , "<img src='images/sketches/03-sci-fi-helmet.jpg' class='main_image'>" , "<img src='images/sketches/04-pottery-throwdown-pickup.jpg' class='main_image'>" , "<img src='images/sketches/05-surrealist-portrait.jpg' class='main_image'>"
+    "<img src='images/sketches/01-fringilla.jpg' class='main_image'>" , "<img src='images/sketches/02-leighton-on-a-mountain.jpg' class='main_image'>" , "<img src='images/sketches/03-sci-fi-helmet.jpg' class='main_image'>" , "<img src='images/sketches/04-helmet.jpg' class='main_image'>" , "<img src='images/sketches/05-surrealist-portrait.jpg' class='main_image'>"
 ]
     
     const resultImage = document.querySelector(".project_window").innerHTML = images [number]
