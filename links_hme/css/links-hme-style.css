@@ -64,7 +64,8 @@ a:hover {
 }
 
 .robo-calendar {
-    border-radius: 0 16px 16px 0;
+    border-radius: 0 16px 0 16px;
+    height: 11rem;
 }
 
 .image {

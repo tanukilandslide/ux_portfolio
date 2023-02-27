@@ -7,6 +7,15 @@ h1 {
     line-height: 1em;
 }
 
+.h1-inline {
+    display:inline;
+}
+
+.h2-inline {
+    margin-left: 1rem;
+    display: inline;
+}
+
 main {
     max-width: 980px;
     margin: 0 auto;
