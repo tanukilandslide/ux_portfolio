@@ -2,57 +2,7 @@
 <svg class="rotating-icon" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
   <defs>
     <style>
-      .cls-1 {
-        fill: #fff;
-      }
-
-    
-
-
-.lines {
-      transform-origin: center;
-      animation-name: clockwise;
-      animation-duration: 60s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-}
-
-.dots {
-      transform-origin: center;
-      animation-name: counterclockwise;
-      animation-duration: 230s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-}
-
-.ufos {
-      transform-origin: center;
-      animation-name: clockwise;
-      animation-duration: 100s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-}
-
-.pointies {
-      transform-origin: center;
-      animation-name: counterclockwise;
-      animation-duration: 120s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-}
-
-@keyframes clockwise {
-from {transform: rotate(0deg);}
-
-to {transform: rotate(360deg);}
-}
-
-@keyframes counterclockwise {
-from {transform: rotate(360deg);}
-
-to {
-      transform: rotate(0deg);}
-}
+      
 
     </style>
   </defs>
@@ -338,7 +288,7 @@ to {
           <path class="cls-1" d="m194.64,291.44s-.02,0-.03,0c.05.02.1.04.03,0Z"/>
         </g>
       </g>
-      <path id="santander-logo" class="cls-1" d="m171.68,144.02c-.16-3.49-1.15-6.88-2.89-9.91l-15.66-27.09c-1.17-2.05-2-4.29-2.45-6.61l-.68,1.14c-3.88,6.71-3.88,14.98,0,21.69l12.53,21.78c3.87,6.71,3.87,14.98,0,21.69l-.66,1.1c-.46-2.32-1.29-4.56-2.48-6.61l-11.46-19.88-7.32-12.62c-1.18-2.04-2.02-4.25-2.48-6.56l-.65,1.1c-3.85,6.7-3.85,14.93,0,21.63h0l12.52,21.8c3.86,6.71,3.86,14.98,0,21.69l-.67,1.11c-.45-2.32-1.29-4.56-2.47-6.61l-15.66-27c-2.06-3.59-3.06-7.7-2.88-11.84-16.75,4.39-28.32,13.72-28.32,24.45,0,15,22.39,27.12,50,27.12s50-12.12,50-27.12c0-10.73-11.57-20.06-28.32-24.45Z"/>
+      <!-- <path id="santander-logo" class="cls-1" d="m171.68,144.02c-.16-3.49-1.15-6.88-2.89-9.91l-15.66-27.09c-1.17-2.05-2-4.29-2.45-6.61l-.68,1.14c-3.88,6.71-3.88,14.98,0,21.69l12.53,21.78c3.87,6.71,3.87,14.98,0,21.69l-.66,1.1c-.46-2.32-1.29-4.56-2.48-6.61l-11.46-19.88-7.32-12.62c-1.18-2.04-2.02-4.25-2.48-6.56l-.65,1.1c-3.85,6.7-3.85,14.93,0,21.63h0l12.52,21.8c3.86,6.71,3.86,14.98,0,21.69l-.67,1.11c-.45-2.32-1.29-4.56-2.47-6.61l-15.66-27c-2.06-3.59-3.06-7.7-2.88-11.84-16.75,4.39-28.32,13.72-28.32,24.45,0,15,22.39,27.12,50,27.12s50-12.12,50-27.12c0-10.73-11.57-20.06-28.32-24.45Z"/> -->
     </g>
   </g>
 </svg>
