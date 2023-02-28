@@ -342,4 +342,9 @@ to {
             
       }
 
+      .icon-text {
+            font-size: 1.3rem;
+            width: 9rem;
+      }
+
   }
