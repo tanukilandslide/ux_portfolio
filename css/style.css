@@ -24,9 +24,9 @@ a {
 .stage {
       display: flex;
       height: 80vh;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      /* justify-content: space-around; */
+      justify-content: center;
       flex-wrap: wrap;
       /* padding-top: 4rem; */
 }
@@ -158,19 +158,17 @@ a {
 }
     
 
-.rotating-icon {
+/* .rotating-icon {
       width: 18rem;
       margin: 1rem;
       
-      /*   animation-name: pointies;
+      animation-name: pointies;
       animation-duration: 30s;
       animation-iteration-count: infinite;
-      animation-timing-function: linear; */
-}
+      animation-timing-function: linear;
+} */
 
-.rotating-icon:hover {
-      fill: red;
-}
+
 
 @keyframes clockwise {
 from {transform: rotate(0deg);}
@@ -217,35 +215,131 @@ to {
       animation-timing-function: linear;
 }
 
-/* #santander-logo {
-      width: 200px;
-      fill: none;
-      stroke: #fff;
-      stroke-miterlimit: 10;
-      stroke-dasharray: 900;
-      stroke-dashoffset: 900;
-      animation: dash 30s infinite linear;
-      border: 1px solid #fff; 
-    }
-    
-    @keyframes dash {
-      to {
-        stroke-dashoffset: -900;
-      }
-    } */
 
-    /* #flower {
-      fill: none;
-            stroke: #fff;
-            stroke-miterlimit: 10;
-            stroke-dasharray: 1000;
-          stroke-dashoffset: 900;
-          animation: dash 90s infinite linear;
-          border: 1px solid #fff;       
+
+/* SVG Style */
+
+
+.rotating-icon {
+      width: 18rem;
+      margin: 1rem;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      position: absolute;
+  }
+
+.icon-text {
+      position: absolute;
+      text-align: center;
+      word-wrap: break-word;
+      width: 13rem;
+      opacity: 0;
+      transition: 1s;
+      filter: blur(16px);
+      font-size: 1.7rem;
+  }
+  
+  
+  .logo-box {
+     margin: 1rem auto;
+      width: 18rem;
+      height: 18rem;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #logo {
+      fill: white;
+      height: 5rem;
+      transition: 1s;
+      
+  }
+  
+  .logo-box:hover #logo {
+      transition: 1s;
+      filter: blur(16px);
+      opacity: 0%;
+  }
+  
+  .logo-box:hover .logo-text {
+      transition: 1s;
+      filter: blur(0px);
+      opacity: 100%;
+  }
+  
+  
+  
+  .rotating-icon:hover .cls-1 {
+      fill: white;
+      
+  }
+  
+  .cls-1 {
+      fill: white;
     }
-    
-    @keyframes dash {
-          to {
-            stroke-dashoffset: -900;
-          }
-      } */
+  
+  .lines {
+    transform-origin: center;
+    animation-name: clockwise;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .dots {
+    transform-origin: center;
+    animation-name: counterclockwise;
+    animation-duration: 230s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .ufos {
+    transform-origin: center;
+    animation-name: clockwise;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .pointies {
+    transform-origin: center;
+    animation-name: counterclockwise;
+    animation-duration: 120s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes clockwise {
+  from {transform: rotate(0deg);}
+  
+  to {transform: rotate(360deg);}
+  }
+  
+  @keyframes counterclockwise {
+  from {transform: rotate(360deg);}
+  
+  to {
+    transform: rotate(0deg);}
+  }
+  body {
+      background-color: rgb(58, 97, 133);
+  }
+
+  @media only screen and (max-width: 990px) {
+
+      .logo-box {
+            width: 12rem;
+            height: 12rem;
+            margin: 2rem;
+      }
+
+      .rotating-icon {
+            width: 12rem;
+            height: 12rem;
+            
+      }
+
+  }
