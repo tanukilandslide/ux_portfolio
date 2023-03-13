@@ -1,0 +1,156 @@
+body {
+    background-color: #2E76AD;;
+}
+
+.black-box {
+    background-color: black;
+    border-radius: 16px;
+    margin: 16px 0;
+    padding: 0;
+}
+
+.white-text {
+    color: white;
+}
+
+#pong-board {
+    background-color: black;
+    max-width: 980px;
+}
+  
+#stellantis-paddle {
+    animation: left-paddle-move 2s linear infinite alternate;
+}
+
+#ccap-paddle {
+    animation: right-paddle-move 2s linear infinite alternate;
+}
+
+#excel-file {
+    animation: ball-move 4s linear infinite alternate;
+}
+
+@keyframes left-paddle-move {
+    0% {transform: translate(0,0)}
+    15% {transform: translate(0,50px)}
+    60% {transform: translate(0,50px)}
+    100% {transform: translate(0,300px)}
+}
+
+@keyframes right-paddle-move {
+    0% {transform: translate(0,0)}
+    20% {transform: translate(0,50px)}
+    40% {transform: translate(0,00px)}
+    100% {transform: translate(0,200px)}
+}
+
+@keyframes ball-move {
+    0% {transform: translate(-100px,0)}
+    33% {transform: translate(350px,200px)}
+    66% {transform: translate(-100px,100px)}
+    100% {transform: translate(350px,100px)}
+}
+  
+.cls-1 {
+    fill: #008c53;
+}
+
+.cls-2, .cls-3 {
+    fill: #fff;
+}
+
+.cls-4 {
+    stroke: #e0dedd;
+    stroke-linecap: round;
+}
+
+.cls-4, .cls-3, .cls-5 {
+    stroke-miterlimit: 10;
+    stroke-width: 2.17px;
+}
+
+.cls-4, .cls-5 {
+    fill: none;
+}
+
+.cls-3, .cls-5 {
+    stroke: #a5a3a3;
+}
+
+#ccap-relationships {
+    
+    height: 40rem;
+}
+
+.spreadsheet {
+    max-width: 580px;
+    height: auto;
+}
+
+
+
+/* server pong */
+
+#left-excel-file {
+    animation: left-ball-move 1s linear infinite alternate;
+}
+
+#right-excel-file {
+    animation: right-ball-move 2s linear infinite alternate;
+}
+
+#stellantis-server-paddle {
+    animation: left-server-paddle-move 1s linear infinite alternate;
+}
+
+#ccap-server-paddle {
+    animation: right-server-paddle-move 2s linear infinite alternate;
+}
+
+@keyframes left-server-paddle-move {
+    0% {transform: translate(0,-5px)}
+    15% {transform: translate(0,60px)}
+    60% {transform: translate(0,180px)}
+    100% {transform: translate(0,40px)}
+}
+
+@keyframes right-server-paddle-move {
+    0% {transform: translate(0,-70px)}
+    40% {transform: translate(0,-120px)}
+    60% {transform: translate(0,-70px)}
+    100% {transform: translate(0,80px)}
+}
+
+@keyframes left-ball-move {
+    0% {transform: translate(-60px,0)}
+    33% {transform: translate(60px,10px)}
+    66% {transform: translate(-60px,120px)}
+    100% {transform: translate(60px,100px)}
+}
+
+@keyframes right-ball-move {
+    0% {transform: translate(-70px,-40px)}
+    33% {transform: translate(55px,-90px)}
+    66% {transform: translate(-70px,-20px)}
+    100% {transform: translate(55px,50px)}
+}
+
+
+/* experimental */
+  
+  .container {
+    height: 1000px;
+    overflow: hidden;
+  }
+  
+  .sliding-image {
+    display: block;
+    position: absolute;
+  }
+  
+  .prototypes {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/danny.png);
+    width: 260px;
+    height: 334px;
+  }
+  

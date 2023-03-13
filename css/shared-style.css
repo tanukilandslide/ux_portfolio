@@ -63,11 +63,42 @@ main {
     padding: .25rem 1rem;
 }
 
+.bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .centered-text-box {
     display: flex;
     justify-content: center;
+    
 }
 
+.left-seventy-text-box {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.right-thirty-text-box {
+    display: flex;
+    justify-content: center;
+    width: 29%;
+}
+
+/* .next-text {
+    margin-left: 1rem;
+} */
+
+.next-arrow {
+    margin: auto;
+    height: 1.5rem;
+    fill: none;
+    stroke: #3a6185;
+    stroke-linecap: round;
+    stroke-width: 25.51px;
+}
 
 @media only screen and (max-width: 990px) {
     .box {
@@ -86,3 +117,11 @@ main {
     }
 
 }
+
+
+
+
+
+
+
+

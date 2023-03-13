@@ -112,3 +112,17 @@ to {
 body {
     background-color: rgb(58, 97, 133);
 }
+
+
+
+
+/* floral svg */
+
+
+
+.path {
+  stroke-dasharray: 20;
+  
+  fill: none;
+}
+
