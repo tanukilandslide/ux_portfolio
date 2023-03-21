@@ -146,6 +146,7 @@ body {
     max-width: 30rem;
     height: auto;
     margin-bottom: 2rem;
+    display: block;
 }
 
 .icon-and-title {
@@ -159,6 +160,8 @@ body {
 .title-icon {
     margin-right: 1rem;
 }
+
+
 
 /* experimental */
   
