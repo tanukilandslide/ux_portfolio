@@ -135,6 +135,30 @@ body {
     100% {transform: translate(55px,50px)}
 }
 
+.prototype-flow-flex-box {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.prototype-flow-image {
+    max-width: 30rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.icon-and-title {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    color: #3366ff;
+}
+
+.title-icon {
+    margin-right: 1rem;
+}
 
 /* experimental */
   
