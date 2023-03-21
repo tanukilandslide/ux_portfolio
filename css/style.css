@@ -221,8 +221,8 @@ to {
 
 
 .rotating-icon {
-      width: 18rem;
-      margin: 1rem;
+      width: 17rem;
+      /* margin: 1rem; */
       grid-column-start: 1;
       grid-row-start: 1;
       position: absolute;
