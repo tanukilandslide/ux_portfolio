@@ -75,6 +75,8 @@ a:hover {
     display: flex;
 }
 
+
+
 .persona_image{
     width: 30%;
     height: 30%;
@@ -90,7 +92,7 @@ a:hover {
 .background_info_text {
     margin: 1vh 0 0 0;
     
-    width: 70%;
+    width: 100%;
     padding: 2vh 2vw;
 }
 
