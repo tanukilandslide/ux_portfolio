@@ -219,6 +219,25 @@ to {
 
 /* SVG Style */
 
+/* .polygon {
+      position: absolute;
+      right: -15%;
+      bottom: -25%;
+      width: 50%;
+      fill: #fff;
+      stroke: #231f20;
+      stroke-width: .25px;
+      stroke-miterlimit: 10;
+      stroke-dasharray: 5000;
+      stroke-dashoffset: 900;
+      animation: dash 60s infinite linear;
+    }
+    
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -40000;
+      }
+    } */
 
 .rotating-icon {
       width: 17rem;
