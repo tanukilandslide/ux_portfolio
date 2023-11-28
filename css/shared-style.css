@@ -72,7 +72,7 @@ main {
 .centered-text-box {
     display: flex;
     justify-content: center;
-    
+    width: 15%;
 }
 
 .seventy-text-box {
