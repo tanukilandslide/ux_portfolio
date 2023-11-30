@@ -6,6 +6,7 @@
 body {
       
       background-color: rgb(58, 97, 133);
+      overflow: hidden;
 }
 
 h1 {
@@ -169,15 +170,22 @@ a {
       stroke-width: .20pt;
       stroke-dasharray: 1800;
       stroke-dashoffset: 1800;
-      animation: dash 30s infinite alternate linear;
+      animation: dash 30s infinite alternate linear , rotate-snowflake 45s infinite linear;
+      /* animation: rotate-snowflake 120s infinite linear; */
     }
     
     @keyframes dash {
       to {
         stroke-dashoffset: -1400;
-        rotate: 120deg;
       }
-    }
+      }
+      
+      @keyframes rotate-snowflake {
+           to {
+                  rotate: 60deg;
+            }
+      }
+      
 
 
 /* .rotating-icon {
