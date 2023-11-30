@@ -25,7 +25,7 @@ main {
 
 .box {
     background-color: white;
-    border-radius: 16px;
+    border-radius: 8px;
     margin: 16px 0;
     padding: 0;
 }
@@ -70,9 +70,17 @@ main {
 }
 
 .centered-text-box {
+    margin: 3rem auto;
+    text-align: center;
+    width: 50%;
+}
+
+.fifty-text-box {
     display: flex;
     justify-content: center;
-    width: 15%;
+    flex-direction: row;
+    align-items: center;
+    width: 49%;
 }
 
 .seventy-text-box {
@@ -92,10 +100,19 @@ main {
 }
 
 .thirty-text {
-    width: 75%;
+    /* width: 75%; */
     display: flex;
     /* flex-direction: row; */
     justify-content: center;
+    align-items: center;
+}
+
+.seventy-text {
+    /* width: 30%; */
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
 }
 
 /* .next-text {
@@ -103,7 +120,7 @@ main {
 } */
 
 .previous-arrow {
-    margin: auto;
+    margin: 16px;
     height: 1.5rem;
     fill: none;
     stroke: #3a6185;
@@ -113,7 +130,7 @@ main {
 }
 
 .next-arrow {
-    margin: auto;
+    margin: 16px;
     height: 1.5rem;
     fill: none;
     stroke: #3a6185;

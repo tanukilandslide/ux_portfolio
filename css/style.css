@@ -160,11 +160,12 @@ a {
 }
     
 .snowflake {
+      z-index: -1;
       position: absolute;
       overflow: hidden;
-      right: -10%;
+      right: -5%;
       bottom: 5%;
-      width: 50vw;
+      height: 50vh;
       fill: none;
       stroke: #fff;
       stroke-width: .20pt;
