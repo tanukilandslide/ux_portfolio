@@ -6,7 +6,7 @@
 body {
       
       background-color: rgb(58, 97, 133);
-      overflow: hidden;
+      overflow-x: hidden;
 }
 
 h1 {
@@ -379,6 +379,12 @@ to {
   }
 
   @media only screen and (max-width: 990px) {
+
+      .snowflake {
+            height: 60vw;
+            right: -15%;
+            bottom: 44%;
+      }
 
       .logo-box {
             width: 12rem;

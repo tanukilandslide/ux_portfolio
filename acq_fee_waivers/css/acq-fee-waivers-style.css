@@ -1,5 +1,8 @@
 body {
+    height: 200px;
+    margin: 0;
     background-color: #2E76AD;;
+    background-image: url("../images/00_acq_fee_background_pattern.svg");
 }
 
 .black-box {
@@ -181,3 +184,23 @@ body {
     height: 334px;
   }
   
+  @media only screen and (max-width: 990px) {
+
+    .prototype-flow-image {
+        width: 100%;
+    }
+
+    #ccap-relationships {
+        width: 100%;
+        height: 25rem;
+    }
+
+    .black-box {
+        margin: 5px;
+    }
+
+    .spreadsheet {
+        width: 100%
+    }
+
+  }

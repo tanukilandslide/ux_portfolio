@@ -118,6 +118,19 @@ a:hover {
 
 @media only screen and (max-width: 990px) {
 
+    .illustration_lineup {
+        flex-direction: column;
+    }
+
+    .brief_illustration {
+        width: 100%;
+        height: auto;
+    }
+
+    .osaka-image {
+        max-width: 100%;
+    }
+
     .persona_image {
         margin: 0 auto;
         width: auto;

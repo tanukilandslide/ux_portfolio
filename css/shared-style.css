@@ -154,6 +154,22 @@ main {
         flex-direction: column-reverse;
     }
 
+    .next-text {
+        font-size: 12pt;
+        padding: 5px;
+        line-height: 1em;
+    }
+
+    .next-arrow {
+        /* margin: 8px; */
+        height: 1.5em;
+    }
+
+    .previous-arrow {
+        /* margin: 8px; */
+        height: 1.5em;
+    }
+
 }
 
 
