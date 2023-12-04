@@ -28,6 +28,13 @@ a:hover {
     /* margin: 0 auto; */
 }
 
+#lottie{
+    background-color:#ffffff;
+    margin: 0 auto 3rem;
+    width:75%;
+    height:75%;
+}
+
 .osaka-image {
     max-width: 33%;
     margin: 0 auto;
