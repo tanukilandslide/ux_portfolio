@@ -220,6 +220,7 @@ to {
       animation-duration: 60s;
       animation-iteration-count: infinite;
       animation-timing-function: linear;
+      backdrop-filter: blur(10px);
 }
 
 .dots {
@@ -270,12 +271,19 @@ to {
       }
     } */
 
+.blur-circle{
+      
+      backdrop-filter: blur(2px);
+      background-color: none;
+}
+
 .rotating-icon {
       width: 14rem;
       /* margin: 1rem; */
       grid-column-start: 1;
       grid-row-start: 1;
       position: absolute;
+      
   }
 
 .icon-text {
@@ -298,13 +306,15 @@ to {
       display: flex;
       justify-content: center;
       align-items: center;
+      backdrop-filter: blur(2px);
+      border-radius: 50%;
   }
   
-  #logo {
+  .logo {
       fill: white;
       height: 5rem;
       transition: 1s;
-      
+      z-index: 1;
   }
   
   .logo-box:hover #logo {
