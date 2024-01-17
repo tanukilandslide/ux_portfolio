@@ -318,7 +318,7 @@ to {
       z-index: 1;
   }
   
-  .logo-box:hover #logo {
+  .logo-box:hover .logo {
       transition: 1s;
       filter: blur(16px);
       opacity: 0%;
