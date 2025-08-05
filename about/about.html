@@ -31,7 +31,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav-bar"> 
+    <div class="nav-bar">
         <div class="content">
             <div class="nav-bar-content">
                 <header>
@@ -46,7 +46,7 @@
                 <nav>
                     <ul class="navigation">
                         <!-- <a href="index.html"><button><li class="nav-item">Projects</li></button></a> -->
-                        
+
                         <a href="/files/andrew-leemhuis-resume-a4.pdf" target="_blank"><button><li class="nav-item">Resume</li></button></a>
                         <a href="about/about.html"><button><li class="nav-item">About</li></button></a>
                     </ul>
@@ -56,21 +56,62 @@
     </div>
 
     <main>
-        <div class="image-and-text">
-            <img class="profile-image" src="images/me.jpeg">
+        <button id="english" onclick="englishClicked()">English</button>
+        <button id="japanese" onclick="japaneseClicked()">Japanese</button>
 
-            <div class="personal-intro">
-                <h1>Hi there!</h1>
+        <div id="stage">
 
-                <p>
-                    Welcome to my portfolio website and first time fully coding a website. When I&#39;m not pulling my hair out trying to figure out why moving the close button breaks the entire personal project page, I enjoy rock climbing, building things, listening to podcasts, and getting incrementally better at Japanese. I love understanding things better, whether it be history, science, or a good conversation.
-                </p>
+                <div class="image-and-text">
+                    <img class="profile-image" src="images/me.jpeg">
 
-                <a href="https://www.linkedin.com/in/andrew-leemhuis-01482718/" target="_blank"><h2>Find me on Linkedin</h2></a>
-                <a href="mailto:andrew.leemhuis@gmail.com"><h2>Email me</h2></a>
-            </div>
+                    <div class="personal-intro">
+                        <h1>Hi there!</h1>
+
+                        <p>
+                            I'm UX Designer with experience in event ticketing, fintech, and healthcare currently living in the mountains of Japan. I love understanding things better, so I'm always working on adding to my broad skillset. I also make a decent coffee and can climb (some) walls.
+                        </p>
+
+                        <a href="https://www.linkedin.com/in/andrew-leemhuis-01482718/" target="_blank"><h2>Find me on Linkedin</h2></a>
+                        <a href="mailto:andrew.leemhuis@gmail.com"><h2>Email me</h2></a>
+                    </div>
+                </div>
         </div>
-    </main>
 
+        <template id="english-about-description">
+            <div class="image-and-text">
+                <img class="profile-image" src="images/me.jpeg">
+
+                <div class="personal-intro">
+                    <h1>Hi there!</h1>
+
+                    <p>
+                        Welcome to my portfolio website and first time fully coding a website. When I&#39;m not pulling my hair out trying to figure out why moving the close button breaks the entire personal project page, I enjoy rock climbing, building things, listening to podcasts, and getting incrementally better at Japanese. I love understanding things better, whether it be history, science, or a good conversation.
+                    </p>
+
+                    <a href="https://www.linkedin.com/in/andrew-leemhuis-01482718/" target="_blank"><h2>Find me on Linkedin</h2></a>
+                    <a href="mailto:andrew.leemhuis@gmail.com"><h2>Email me</h2></a>
+                </div>
+            </div>
+        </template>
+
+        <template id="japanese-about-description">
+            <div class="image-and-text">
+                <img class="profile-image" src="images/me.jpeg">
+
+                <div class="personal-intro">
+                    <h1>やほー！</h1>
+
+                    <p>
+                        ポートフォリオと初めて自分で開発するサイトへようこそ。髪の毛を抜かせるまでバグを追いかける時以外、クライミング、物作り、ポッドキャスト、一段と日本語を上達するのは興味です。UXデザインや歴史や科学やいい会話で物事を理解することが好きです。
+                    </p>
+
+                    <a href="https://www.linkedin.com/in/andrew-leemhuis-01482718/" target="_blank"><h2>Find me on Linkedin</h2></a>
+                    <a href="mailto:andrew.leemhuis@gmail.com"><h2>Email me</h2></a>
+                </div>
+            </div>
+        </template>
+
+    </main>
+<script src="javascript/script.js"></script>
 </body>
 </html>
