@@ -1,11 +1,15 @@
 * {
-      
-      color: white;
+  color: white;
+}
+
+:root {
+  --winter: #3a6185;
+  --summer: #914626;
 }
 
 body {
-      
-      background-color: rgb(58, 97, 133);
+
+      background-color: var(--summer);
       overflow-x: hidden;
 }
 
@@ -42,17 +46,17 @@ a {
       max-width: 300px;
       max-height: 300px;
       border-radius: 100%;
-      background-color: rgb(22, 56, 87);
+      background-color: var(--summer);
       position: relative;
 }
 
 /* .logos {
       grid-column: 1 / span 8;
-      grid-row: 1;    
+      grid-row: 1;
 } */
 
 .logo-1 {
-     
+
       position: absolute;
       top: 9%;
       left: 25%;
@@ -105,7 +109,7 @@ a {
       /* font-family: 'avenir'; */
       font-size: 1.5rem;
       fill: white;
-      
+
       position: absolute;
       left: -5vw;
       top: -5vw;
@@ -118,7 +122,7 @@ a {
 .first-title {
       transform-origin: 50% 50%;
       opacity: 33%;
-      animation: spin 15s cubic-bezier(.21,.4,.63,.83) infinite; 
+      animation: spin 15s cubic-bezier(.21,.4,.63,.83) infinite;
 }
 
 .second-title {
@@ -131,15 +135,15 @@ a {
       transform-origin: 50% 50%;
       opacity: 33%;
       animation: spin 15s cubic-bezier(.45,.2,.82,.6) infinite;
-      
+
 }
 
 /* .circle:hover .text-circle {
       animation: spin-to-top 5s linear infinite;
     } */
-    
+
 @keyframes spin {
-    
+
       0% {
         transform: rotate(0);
       }
@@ -148,17 +152,17 @@ a {
 
             transform: rotate(0);
       }
-    
+
       100% {
         transform: rotate(360deg);
       }
-    
+
     }
 
 @keyframes spin-to-top {
       to {transform: rotate(360deg);}
 }
-    
+
 .snowflake {
       z-index: -1;
       position: absolute;
@@ -174,25 +178,44 @@ a {
       animation: dash 30s infinite alternate linear , rotate-snowflake 45s infinite linear;
       /* animation: rotate-snowflake 120s infinite linear; */
     }
-    
+
     @keyframes dash {
       to {
         stroke-dashoffset: -1400;
       }
       }
-      
+
       @keyframes rotate-snowflake {
            to {
                   rotate: 60deg;
             }
       }
-      
+
+      .palm {
+      z-index: -1;
+      position: absolute;
+      overflow: hidden;
+      right: -5%;
+      bottom: 5%;
+      height: 70vh;
+      fill: none;
+      stroke: #fff;
+      stroke-width: .20pt;
+      stroke-dasharray: 1800;
+      stroke-dashoffset: 1800;
+      animation: dash 30s infinite alternate linear;
+      /* animation: rotate-snowflake 120s infinite linear; */
+    }
+
+    .palm .cls-1 {
+      fill: none;
+    }
 
 
 /* .rotating-icon {
       width: 18rem;
       margin: 1rem;
-      
+
       animation-name: pointies;
       animation-duration: 30s;
       animation-iteration-count: infinite;
@@ -264,7 +287,7 @@ to {
       stroke-dashoffset: 900;
       animation: dash 60s infinite linear;
     }
-    
+
     @keyframes dash {
       to {
         stroke-dashoffset: -40000;
@@ -272,7 +295,7 @@ to {
     } */
 
 .blur-circle{
-      
+
       backdrop-filter: blur(2px);
       background-color: none;
 }
@@ -283,7 +306,7 @@ to {
       grid-column-start: 1;
       grid-row-start: 1;
       position: absolute;
-      
+
   }
 
 .icon-text {
@@ -296,8 +319,8 @@ to {
       filter: blur(16px);
       font-size: 1.3rem;
   }
-  
-  
+
+
   .logo-box {
      margin: 1rem auto;
       width: 15rem;
@@ -310,37 +333,37 @@ to {
       -webkit-backdrop-filter: blur(2px);
       border-radius: 50%;
   }
-  
+
   .logo {
       fill: white;
       height: 5rem;
       transition: 1s;
       z-index: 1;
   }
-  
+
   .logo-box:hover .logo {
       transition: 1s;
       filter: blur(16px);
       opacity: 0%;
   }
-  
+
   .logo-box:hover .logo-text {
       transition: 1s;
       filter: blur(0px);
       opacity: 100%;
   }
-  
-  
-  
+
+
+
   .rotating-icon:hover .cls-1 {
       fill: white;
-      
+
   }
-  
+
   .cls-1 {
       fill: white;
     }
-  
+
   .lines {
     transform-origin: center;
     animation-name: clockwise;
@@ -348,7 +371,7 @@ to {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
-  
+
   .dots {
     transform-origin: center;
     animation-name: counterclockwise;
@@ -356,7 +379,7 @@ to {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
-  
+
   .ufos {
     transform-origin: center;
     animation-name: clockwise;
@@ -364,7 +387,7 @@ to {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
-  
+
   .pointies {
     transform-origin: center;
     animation-name: counterclockwise;
@@ -372,21 +395,18 @@ to {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
   }
-  
+
   @keyframes clockwise {
   from {transform: rotate(0deg);}
-  
+
   to {transform: rotate(360deg);}
   }
-  
+
   @keyframes counterclockwise {
   from {transform: rotate(360deg);}
-  
+
   to {
     transform: rotate(0deg);}
-  }
-  body {
-      background-color: rgb(58, 97, 133);
   }
 
   @media only screen and (max-width: 990px) {
@@ -406,7 +426,7 @@ to {
       .rotating-icon {
             width: 12rem;
             height: 12rem;
-            
+
       }
 
       .icon-text {
@@ -417,5 +437,4 @@ to {
       #logo {
             width: 50%;
       }
-
   }

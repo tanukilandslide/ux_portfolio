@@ -1,7 +1,8 @@
 .nav-bar {
 position:relative;
 z-index: 3;
-background-color: rgb(58, 97, 133);
+/* background-color: rgb(58, 97, 133); */
+background-color: var(--summer);
 width: 100%;
 font-family: 'avenir', helvetica, sans-serif;
 }
@@ -56,50 +57,50 @@ margin: 0 8px;
     .logo {
         min-width: 13.18rem;
     }
-    
+
     h1{
         font-size: 18pt;
     }
-    
+
     h2 {
         font-size: 14pt;
     }
-    
+
     ul {
         margin: 0;
     }
-    
+
     .navigation {
-        
+
         flex-wrap: wrap;
         display: flex;
         justify-content: flex-end;
     }
-    
+
     .nav-bar-content {
         padding-right: 0;
         align-items: normal;
     }
-    
+
     .nav {
         margin: 0;
-        
+
     }
-    
+
     button {
     width: 6rem;
     height: 2.1rem;
     margin-top: .5rem;
     padding: 0;
     }
-    
+
     button:hover {
         width: 6rem;
         height: 2.1rem;
         margin-top: .5rem;
         padding: 0;
         }
-    
+
     }
 
 a {
