@@ -1,4 +1,4 @@
-const season = new Date();
+const season = new Date().getMonth() + 1;
 const animatedIllustration = document.getElementById("animated-illustration");
 const snowflake = `<svg class="snowflake" id="snowflake" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 801.02 694">
   <defs>
@@ -116,10 +116,12 @@ const palm = `<svg class="palm" id="Layer_2" data-name="Layer 2" xmlns="http://w
   </g>
 </svg>`
 
-if (3 <= season <= 9) {
+if (3 <= season && season <= 9) {
   document.querySelector("body").style.setProperty("background-color", "var(--summer)");
   animatedIllustration.innerHTML = palm;
 } else {
   document.querySelector("body").style.setProperty("background-color", "var(--winter)");
   animatedIllustration.innerHTML = snowflake;
 }
+
+console.log(season)

@@ -201,8 +201,8 @@ a {
       fill: none;
       stroke: #fff;
       stroke-width: .20pt;
-      stroke-dasharray: 1800;
-      stroke-dashoffset: 1800;
+      stroke-dasharray: 4000;
+      stroke-dashoffset: 4000;
       animation: dash 30s infinite alternate linear;
       /* animation: rotate-snowflake 120s infinite linear; */
     }
@@ -419,8 +419,10 @@ to {
 
       .palm {
             height: 50vw;
-            right: -15%;
+            right: -1%;
             bottom: 44%;
+            stroke-width: 1pt;
+            overflow-x: hidden;
       }
 
       .logo-box {

@@ -1,8 +1,6 @@
 .nav-bar {
 position:relative;
 z-index: 3;
-/* background-color: rgb(58, 97, 133); */
-background-color: var(--summer);
 width: 100%;
 font-family: 'avenir', helvetica, sans-serif;
 }
