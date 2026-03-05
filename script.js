@@ -116,7 +116,7 @@ const palm = `<svg class="palm" id="Layer_2" data-name="Layer 2" xmlns="http://w
   </g>
 </svg>`
 
-if (3 <= season && season <= 9) {
+if (4 <= season && season <= 9) {
   document.querySelector("body").style.setProperty("background-color", "var(--summer)");
   animatedIllustration.innerHTML = palm;
 } else {
